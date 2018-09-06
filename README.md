@@ -16,8 +16,8 @@ This is a default environment for computer vision applications written in Python
 ### Documentation
 The documentation pattern is: 
 - Class
- - __init__ | Class constructor
- - Methods
+  - __init__ | Class constructor
+  - Methods
 
 Classes:
 - Camera
