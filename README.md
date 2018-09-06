@@ -11,7 +11,18 @@ This is a default environment for computer vision applications written in Python
 * OpenCV
 * Matplotlib
 
-### Usage
+### Usage Example
+```Python
+from Camera import Camera
+from Image import Image
+from IO import Servo
+Camera = Camera()
+panServo = Servo(pin = 19)
+panServo.rotate(dutyCycle = 7.5)
+img = Image(Camera.takePhoto())
+img.rotate(180)
+img.save()
+```
 
 ### Documentation
 The documentation pattern is: 
