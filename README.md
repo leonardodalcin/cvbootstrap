@@ -15,7 +15,9 @@ This is a default environment for computer vision applications written in Python
 ```Python
 from Camera import Camera
 from Image import Image
+from IO import IO
 from IO import Servo
+IO = IO()
 Camera = Camera()
 panServo = Servo(pin = 19)
 panServo.rotate(dutyCycle = 7.5)
